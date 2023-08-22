@@ -43,3 +43,34 @@ foreach (var aluno in resultadoIntersectTurmas)
 
 }
 Console.WriteLine($"\nQuantidade de alunos com o mesmo ano de nascimento: {resultadoIntersectTurmas.Count()}");
+
+Console.WriteLine("\nUnion:\n");
+//Exibe os elementos de dois conjuntos, exibindo apenas 1x os repetidos
+
+List<int> fonteNumeros1 = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+List<int> fonteNumeros2 = new List<int>() { 1, 3, 5, 8, 9, 10 };
+
+//Sintaxe de método
+var resultadoNumeros = fonteNumeros1.Union(fonteNumeros2).ToList();
+
+//Sintaxe de Consulta
+//var resultadoNumeros = (from num in fonteNumeros1 select num).Union(fonteNumeros2).ToList();
+
+resultadoNumeros.ForEach(num => Console.Write($"{num} "));
+
+
+Console.WriteLine("\nUnion com sobrecarga de método:\n");
+
+var listaPaises = FonteDados.GetPaises();
+var listaPaisess2 = FonteDados.GetPaises2();
+
+var resultadoUniaoPaises = listaPaises.Union(listaPaisess2, StringComparer.OrdinalIgnoreCase).ToList();
+
+resultadoUniaoPaises.ForEach(pais => Console.Write($"{pais} "));
+
+Console.WriteLine("\n\nUnionBy:\n");
+//Lista de alunos turma A e B juntando os nomes distintos
+
+var alunosMesmoNome = turmaA.UnionBy(turmaB, aluno => aluno.Nome).ToList();
+
+alunosMesmoNome.ForEach(aluno => Console.WriteLine($"Nome: {aluno.Nome}\tIdade: {aluno.Idade}\tNasc.: {aluno.Nascimento.ToShortDateString()}"));

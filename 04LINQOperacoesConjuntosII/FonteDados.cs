@@ -34,5 +34,17 @@ namespace _04LINQOperacoesConjuntosII
             };
             return alunos;
         }
+
+        public static string[] GetPaises()
+        {
+            var paises = new[] { "Brasil", "USA", "UK", "Argentina", "China" };
+            return paises;
+        }
+
+        public static string[] GetPaises2()
+        {
+            var paises = new[] { "Brasil", "uk", "Argentina", "França", "Japão" };
+            return paises;
+        }
     }
 }
