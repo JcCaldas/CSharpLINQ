@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02LINQProjecao", "02LINQPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03LINQOperacoesConjuntosI", "03LINQOperacoesConjuntosI\03LINQOperacoesConjuntosI.csproj", "{6435B075-C5B6-4693-88A2-C4883DACC444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04LINQOperacoesConjuntosII", "04LINQOperacoesConjuntosII\04LINQOperacoesConjuntosII.csproj", "{EC463094-730E-4B01-B1A6-CDF9BBC95CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04LINQOperacoesConjuntosII", "04LINQOperacoesConjuntosII\04LINQOperacoesConjuntosII.csproj", "{EC463094-730E-4B01-B1A6-CDF9BBC95CFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05LINQOperadoresOrdenacao", "05LINQOperadoresOrdenacao\05LINQOperadoresOrdenacao.csproj", "{DB9D2EC2-9801-46B4-B7B0-1ADA121A63D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05LINQOperadoresOrdenacao", "05LINQOperadoresOrdenacao\05LINQOperadoresOrdenacao.csproj", "{DB9D2EC2-9801-46B4-B7B0-1ADA121A63D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06LINQOperacaoAgregacaoI", "06LINQOperacaoAgregacaoI\06LINQOperacaoAgregacaoI.csproj", "{F7A6A475-3E76-4573-AFB7-57DE0EC4985C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07LINQOperacaoAgregacaoII", "07LINQOperacaoAgregacaoII\07LINQOperacaoAgregacaoII.csproj", "{59FEC529-886B-4AA8-A49E-3A0878AE06A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{DB9D2EC2-9801-46B4-B7B0-1ADA121A63D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9D2EC2-9801-46B4-B7B0-1ADA121A63D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9D2EC2-9801-46B4-B7B0-1ADA121A63D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A6A475-3E76-4573-AFB7-57DE0EC4985C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A6A475-3E76-4573-AFB7-57DE0EC4985C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A6A475-3E76-4573-AFB7-57DE0EC4985C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A6A475-3E76-4573-AFB7-57DE0EC4985C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FEC529-886B-4AA8-A49E-3A0878AE06A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FEC529-886B-4AA8-A49E-3A0878AE06A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FEC529-886B-4AA8-A49E-3A0878AE06A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FEC529-886B-4AA8-A49E-3A0878AE06A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
